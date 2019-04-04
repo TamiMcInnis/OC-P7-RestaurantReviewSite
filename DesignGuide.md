@@ -2,9 +2,9 @@
 
 
 ## Welcome
-Welcome and thanks for coming to check out my project! This project was created as one of the last major assignments for the BA degree in **Front-End Web Development** at **Open Classrooms**. Below is a breif description on the structure, technologies and features of this project.
+Welcome and thanks for coming to check out my project! This project was created as one of the last major assignments for the BA degree in **Front-End Web Development** at **Open Classrooms**. Below is a brief description on the structure, technologies and features of this project.
 
-*For dependancies and download instructions please see* `README.md`
+*For dependencies and download instructions please see* `README.md`
 
 
 ## Goals of Project
@@ -20,8 +20,8 @@ Specific requirements outlined for this project include:
 	* as markers on map
 * When list item is clicked
 	* show details for restaurant
-	* show streetview for restaurant
-	* show reviews for reataurant
+	* show streetView for restaurant
+	* show reviews for restaurant
 * Users can add reviews to a restaurant
 * Users can add a new restaurant by clicking location on map
 * Users can filter restaurants based on ratings
@@ -41,10 +41,10 @@ This project has some great features in it that by creating, really expanded my 
 
 * The styling of the app is consistent, down to the style object passed to the GoogleMaps API to syle the map
 * The app is fully responsive, moving the `<SidePanel />` to the bottom of screen when the screen becomes vertical
-* Returned restaurants are determined by the bounds of the map visibile, as opposed to a radius around the user. This allows the user to scan the map in other areas than their current location, to get data
+* Returned restaurants are determined by the bounds of the map visible, as opposed to a radius around the user. This allows the user to scan the map in other areas than their current location, to get data
 * The filter allows users to display only restaurants that meet their desired rating
-* When hovering on a restuarant listing, the corresponding map marker highlights
-* Users can add new reviews to an existing resraurant
+* When hovering on a restaurant listing, the corresponding map marker highlights
+* Users can add new reviews to an existing restaurant
 * `moment.js` is used to determine the relative time since each review was left
 * Users can add a new restaurant to the array of existing restaurants
 
@@ -97,13 +97,13 @@ A few issues that I ran into:
 * I would like to have the loading screen display for a *minimum* amount of time so that it isn't confusing to users when it loads very briefly
 * every now and then an error message loads stating `Cannot read property 'maps' of undefined`
 * I think this is due to the code parsing faster than the API returns a map object from Google
-* When adding a new review, the overall rating and number of reviews does not immediatetly update. The details panel must be closed and remounted for the new data to take effect
+* When adding a new review, the overall rating and number of reviews does not immediately update. The details panel must be closed and remounted for the new data to take effect
 * This would not be an issue if this were a real app as data would be going to the database that results are pulled from via the API. But it still bothers me that I haven't managed to make it happen in the project.
-* On the filter, I would like the stars up to the hovered star to become active to show the user a response. I acheived this in a trial vanilla JS version of the project by using `prevAll()` but wasn't able to use the same structure in the React version.
+* On the filter, I would like the stars up to the hovered star to become active to show the user a response. I achieved this in a trial vanilla JS version of the project by using `prevAll()` but wasn't able to use the same structure in the React version.
 
 
 ## Closing Thoughts
-Although there were a few unfulfilled wishes, I feel that I acheived quite a bit for a first project with React or APIs. I'm grateful for this challenging assignment, and glad that I forged my own path through it.
+Although there were a few unfulfilled wishes, I feel that I achieved quite a bit for a first project with React or APIs. I'm grateful for this challenging assignment, and glad that I forged my own path through it. In the future I may come back to try to implement these last few changes.
 
 Now that I have a solid understanding of the React framework, I am looking forward to making to fun experimental projects with the technology.
 
