@@ -1,4 +1,4 @@
-## For a user guide to the basic structure, dataflow and features of this project, plase refer to `DesignGuide.md` in this repo
+## For a user guide to the basic structure, dataflow and features of this project, please refer to `DesignGuide.md` in this repo
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
