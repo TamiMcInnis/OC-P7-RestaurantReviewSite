@@ -1,0 +1,133 @@
+
+/* ======== RESTAURANT LISTING ========*/
+
+/* OVERALL RESTUARANT LISTING */
+.RestaurantListing {
+	height: 100px;
+	background-color: white;
+	border-bottom: solid #e0e0e0 5px;
+	border-left: solid #e0e0e0 10px;
+	border-right: solid #e0e0e0 10px;
+}
+
+/* ON HOVER OF RESTAURANT LISTING */
+.RestaurantListing:hover { 
+  cursor: pointer;
+  background-color: #faedfc;
+}
+
+/* CONTAINER FOR LISTING IMAGE */
+.RestaurantListing-photo-box {
+	width: 30%;
+	height: 100px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+}
+
+/* LISTING IMAGE */
+.RestaurantListing-photo {
+	width: 100%;
+	height: auto;
+}
+
+/* CONTAINER FOR DETAILS */
+.RestaurantListing-details-box {
+	padding: 10px;
+	width: 60%;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: top;
+	display: inline-block;
+}
+
+/* DETAILS TITLE */
+.RestaurantListing-details-title {
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+/* DETAILS ADDRESS */
+.RestaurantListing-details-address {
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 13px;
+}
+
+/* DETAILS ICONS */
+.RestaurantListing-details-icons {
+	display: inline-block;
+	overflow: visible;
+	white-space: nowrap;
+	width: 175px;
+	font-size: 13px;
+}
+
+/* DETAILS NUMERIC RATING */
+.RestaurantListing-details-rating {
+	display: inline;
+}
+
+/* DETAILS TOTAL NUMBER OF RATINGS */
+.RestaurantListing-details-totalRatings {
+	display: inline;
+	color: #a3a3a3;
+}
+
+/* RESTURANT CLOSED */
+.RestaurantListing-details-closed {
+	color: #a3a3a3;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+/* RESTURANT OPEN */
+.RestaurantListing-details-open {
+	font-weight: 600;
+	font-size: 13px;
+}
+
+/* CONTAINER FOR OPEN/CLOSED STATUS */
+.RestaurantListing-details-openNow {
+	margin: 0;
+}
+
+/* ======== MEDIA QUERIES FOR RESTAURANT LISTING ========*/
+
+/* LANDSCAPE UP TO 700PX WIDE */
+@media only screen and (max-width: 700px) and (orientation : landscape) {
+	.RestaurantListing-details-totalRatings {
+		display: none;
+	}
+}
+
+/* LANDSCAPE UP TO 600PX WIDE */
+@media only screen and (max-width: 600px) and (orientation : landscape) {
+	.RestaurantListing-photo-box {
+		display: none;
+	}
+	.RestaurantListing-details-totalRatings {
+		display: inline;
+	}
+}
+
+/* LANDSCAPE UP TO 500PX */
+@media only screen and (max-width: 500px) and (orientation : landscape) {
+	.RestaurantListing-details-totalRatings {
+		display: none;
+	}
+}
+
+

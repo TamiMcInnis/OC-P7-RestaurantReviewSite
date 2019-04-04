@@ -1,0 +1,16 @@
+
+/* ======== GLOBAL STYLES ========*/
+
+/* OVERALL BODY */
+body {
+	margin: 0;
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10pt;
+	font-weight: 400;
+}
+
+/* REMOVE DEFAULT OUTLINE ON FOCUS */
+*:focus {
+	outline: none;
+}

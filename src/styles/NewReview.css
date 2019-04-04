@@ -1,0 +1,93 @@
+
+/* ======== NEW REVIEW ========*/
+
+/* OVERALL NEW REVIEW COPMONENT */
+.newReview {
+	padding: 14px;
+	background-color: white;
+}
+
+/* TEXT IN NEW REVIEW */
+.newReview p {
+	margin: 0 0 2px 0;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+/* DIV HOLDING RADIO BUTTONS */
+#newReview-ratingsDiv {
+	margin-bottom: 10px;
+}
+
+/* RADIO BUTTONS */
+#newReview-ratingsDiv input {
+	margin-right: 14px;
+	margin-left: 4px;
+}
+
+/* TITLE */
+.newReview-title {
+	font-size: 14px;
+	margin: 0 0 14px 0;
+}
+
+/* COMMENT */
+.newReview-comment {
+	margin-bottom: 10px;
+	resize: none;
+	border: 1px solid #e3e3e3;
+	border-radius: 2px;
+	display: block;
+	overflow: auto;
+}
+
+/* WHEN FOCUSED ON COMMENT */
+.newReview-comment:focus {
+	box-shadow: 0 0 4px 2px #526AB7;
+	outline: none;
+}
+
+/* WHEN FOCUSED ON AUTHOR */
+.newReview-author:focus {
+	box-shadow: 0 0 4px 2px #526AB7;
+	outline: none;
+}
+
+/* AUTHOR */
+.newReview-author {
+	margin-bottom: 10px;
+	border: 1px solid #e3e3e3;
+	border-radius: 2px;
+
+}
+
+/* CANCEL BUTTON */
+.newReview-cancelButton {
+	background: #e552c8;
+	border: 2px solid #f4e6f4;
+	border-radius: 24px;
+	padding: 4px 10px;
+	color: #ffffff;
+	display: inline-block;
+	font: normal bold 9pt "Open Sans", sans-serif;
+	text-align: center;
+	cursor: pointer;
+	margin: 2px 0 0 0;
+	outline: none;
+}
+
+/* SUBMIT BUTTON */
+.newReview-submitButton {
+	background: #e552c8;
+	border: 2px solid #f4e6f4;
+	border-radius: 24px;
+	padding: 4px 10px;
+	color: #ffffff;
+	display: inline-block;
+	font: normal bold 9pt "Open Sans", sans-serif;
+	text-align: center;
+	cursor: pointer;
+	margin: 2px 4px 0 0;
+	outline: none;
+}
+

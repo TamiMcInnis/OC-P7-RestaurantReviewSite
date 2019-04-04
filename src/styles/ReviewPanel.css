@@ -1,0 +1,14 @@
+
+/* ======== REVIEW PANEL ========*/
+
+/* OVERALL REVIEW PANEL */
+.reviewPanel {
+	background-color: #e0e0e0;
+	padding-top: 1px;
+}
+
+/* NO REVIEWS IMAGE */
+.reviewPanel-noReviews {
+	background-color: white;
+	padding: 14px;
+}

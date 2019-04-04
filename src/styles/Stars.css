@@ -1,0 +1,16 @@
+
+/* ======== STARS ========*/
+
+/* EACH STAR */
+.star {
+	height: 100%;
+	width: auto;
+	color: #E552C8;
+}
+
+/* ROW OF STARS */
+.starRow {
+	display: inline-block;
+	height: 22px;
+	width: auto;
+}

@@ -1,0 +1,34 @@
+
+/* ======== INFO WINDOW ========*/
+
+/* OVERALL INFO WINDOW */
+.infoWindow {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	overflow: hidden;
+   white-space: nowrap;
+}
+
+/* RESTAURANT TITLE */
+.infoWindow-title {
+	margin: 0;
+	font-family: 'Merriweather', serif;
+}
+
+/* DOLLAR SIGNS */
+.infoWindow-price {
+	margin-right: 4px;
+	font-weight: 500;
+}
+
+/* RATING */
+.infoWindow-rating {
+	margin-right: 5px;
+}
+
+/* HIDE X FOR CLOSE */
+button.gm-ui-hover-effect {
+	display: none !important;
+}

@@ -1,0 +1,236 @@
+
+/* ======== RESTAURANT DETAILS ========*/
+
+/* OVERALL STYLING */
+.restaurantDetails-details {
+	background-color: white;
+	margin-bottom: 4px;
+	padding: 14px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+/* KEEP TOP INFO STICKY AT TOP */
+.restaurantDetails-topBar {
+	background-color: white;
+	position: sticky;
+    top: 102px;
+ }
+
+/* STREETVIEW PHOTO */
+.restaurantDetails-topBar-photoBox {
+	width: 100%;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+}
+
+/* BACK BUTTON */
+.restaurantDetails-topBar-close {
+	position: absolute;
+   	left: 10px;
+   	top: 164px;
+   	padding: 10px;
+   	width: 50px;
+   	height: auto;
+   	cursor: pointer;
+}
+
+.restaurantDetails-topBar-close > img {
+	width: 100%;
+	height: auto;
+}
+
+/*RESTAURANT TITLE*/
+.restaurantDetails-topBar-title {
+	margin-bottom: 0;
+	margin-top: 22px;
+	padding-bottom: 6px;
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+/* RATING */
+.restaurantDetails-topBar-rating {
+	margin: 0 2px 0 2px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+/* HOURS */
+.restaurantDetails-details-operatingHours {
+	margin-left: 31px;
+}
+
+.restaurantDetails-details-hoursLabel {
+	margin-bottom: 4px;
+}
+
+.restaurantDetails-details-hours {
+	font-weight: 400;
+}
+
+/* TOTAL NUMBER OF RATINGS */
+.restaurantDetails-topBar-totalRatings {
+	color: #a3a3a3;
+	margin-left: 2px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+/* REVIEWS AREA */
+.restaurantDetails-reviews {
+	background-color: white;
+}
+
+.restaurantDetails-reviews-title {
+	margin-top: 0;
+	margin-bottom: 5px;
+	margin-left: 8px;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* ADD A REVIEW BUTTON */
+button.restaurantDetails-reviews-button {
+	background: #e552c8;
+	border: 2px solid #f4e6f4;
+	border-radius: 24px;
+	padding: 4px 10px;
+	color: #ffffff;
+	display: block;
+	font: normal bold 9pt "Open Sans", sans-serif;
+	text-align: center;
+	cursor: pointer;
+	margin: 2px 0 0 2px;
+	outline: none;
+}
+
+/* DETAILS TOP UI AREA */
+.restaurantDetails-topBar-container {
+	padding: 10px 10px 14px 14px;
+	border-bottom: solid 4px #e0e0e0;
+}
+
+/* DOLLAR SIGNS */
+.restaurantDetails-topBar-container .dollarSigns{
+	font-size: 14px;
+}
+
+/* STARS */
+.restaurantDetails-topBar-container .starRow {
+	font-size: 14px;
+}
+
+/* CONTACT INFO */
+.restaurantDetails-details-contact {
+	margin-bottom: 16px;
+}
+
+/* OPEN STATUS */
+.restaurantDetails-details-openStatus {
+	margin-bottom: 4px;
+	display: flex;
+	align-items: center;
+}
+
+/* IF OPEN */
+.restaurantDetails-details-open {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+/* IF CLOSED */
+.restaurantDetails-details-closed {
+	font-weight: 600;
+	color: #a3a3a3;
+	font-size: 14px;
+}
+
+/* REVIEWS UI */
+.restaurantDetails-reviews-topUI {
+	padding: 14px;
+	border-bottom: 10px solid #e0e0e0;
+}
+
+/* WEBLINK */
+.restaurantDetails-details-website * {
+	text-decoration: none;
+	color: black;
+}
+
+/* WEB AREA */
+.restaurantDetails-details-website {
+	display: flex;
+	align-items: center;
+	margin-bottom: 4px;
+}
+
+/* HOURS AREA */
+.restaurantDetails-clock {
+	height: 20px;
+	width: auto;
+}
+
+/* ADDRESS AREA */
+.restaurantDetails-details-address {
+	display: flex;
+	align-items: center;
+	margin-bottom: 4px;
+}
+
+/* PHONE AREA */
+.restaurantDetails-details-phone {
+	display: flex;
+	align-items: center;
+	margin-bottom: 4px;
+}
+
+/* TEXT IN CONTACT AREA */
+.restaurantDetails-details-contact p {
+	margin: 2px 0 2px 0;
+	display: inline;
+	vertical-align: middle;
+}
+
+/* DIVS AROUND ICONS */
+ .restaurantDetails-image-box {
+ 	display: inline-block;
+ 	height: 26px;
+ 	margin-right: 6px;
+ }
+
+/* IMG ICONS */
+ .restaurantDetails-image-box img {
+ 	height: 100%;
+ 	width: auto;
+ }
+
+/* ======== MEDIA QUERIES FOR RESTAURANT DETAILS ========*/
+
+/* PORTRAIT UP TO 700PX */
+@media only screen and (orientation : portrait) and (max-width: 700px) {
+	.restaurantDetails-topBar {
+		background-color: white;
+		position: sticky;
+   		top: 102px;
+   		width: 100%;
+   		display: inline-block;
+	}
+
+	.restaurantDetails-details {
+		background-color: white;
+		margin-bottom: 4px;
+		padding: 14px;
+		font-size: 14px;
+		font-weight: 500;
+		width: 100%;
+   		display: inline-block;
+	}
+}
+
+

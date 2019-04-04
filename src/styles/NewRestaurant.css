@@ -1,0 +1,101 @@
+
+/* ======== NEW RESTAURANT ========*/
+
+/* OVERALL STYLING */
+.newRestaurant {
+	padding: 14px;
+	background-color: white;
+}
+
+/* TITLE OF COMPONENET */
+.newRestaurant-title {
+	margin: 0 0 14px 0;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* TEXT */
+.newRestaurant p {
+	margin: 0 0 2px 0;
+	font-size: 12px;
+	font-weight: 500;
+	display: block;
+}
+
+/* INPUTS */
+.newRestaurant input {
+	margin-bottom: 10px;
+	border: 1px solid #e3e3e3;
+	border-radius: 2px;
+}
+
+/* FOCUSED INPUTS */
+.newRestaurant-name-input:focus {
+	box-shadow: 0 0 4px 2px #526AB7;
+	outline: none;
+}
+
+/* SUBMIT BUTTON */
+.newRestaurant-submitButton {
+	background: #e552c8;
+	border: 2px solid #f4e6f4;
+	border-radius: 24px;
+	padding: 4px 10px;
+	color: #ffffff;
+	display: inline-block;
+	font: normal bold 9pt "Open Sans", sans-serif;
+	text-align: center;
+	cursor: pointer;
+	margin: 2px 4px 0 0;
+	outline: none;
+}
+
+/* CANCEL BUTTON */
+.newRestaurant-cancelButton {
+	background: #e552c8;
+	border: 2px solid #f4e6f4;
+	border-radius: 24px;
+	padding: 4px 10px;
+	color: #ffffff;
+	display: inline-block;
+	font: normal bold 9pt "Open Sans", sans-serif;
+	text-align: center;
+	cursor: pointer;
+	margin: 2px 4px 0 0;
+	outline: none;
+}
+
+/* ADDRESS AREA */
+.newRestaurant-address {
+	display: inline-block;
+}
+
+/* SET COORDS BUTTON */
+.newRestaurant-coordsButton {
+	background: #e552c8;
+	border: 2px solid #f4e6f4;
+	border-radius: 24px;
+	padding: 4px 10px;
+	color: #ffffff;
+	display: block;
+	font: normal bold 9pt "Open Sans", sans-serif;
+	text-align: center;
+	cursor: pointer;
+	margin: 2px 4px 12px 0px;
+	outline: none;
+}
+
+/* ADRESS INPUT */
+input.newRestaurant-address  {
+	display: inline-block;
+	margin-bottom: 6px;
+}
+
+/* HELP TEXT FOR ADDRESS */
+p.newRestaurant-address-help {
+	color: #a3a3a3;
+	font-weight: 500;
+	margin-bottom: 6px;
+	margin-top: 10px;
+}
+

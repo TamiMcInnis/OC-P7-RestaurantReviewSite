@@ -1,0 +1,19 @@
+
+/* ======== HEADER ========*/
+
+/* OVERALL HEADER */
+#header {
+	background-color: #333456;
+	border-bottom: solid #eaeaea 2px;
+	height: 100px;
+	z-index: 1000;
+}
+
+/* LOGO IN HEADER */
+#header-logo {
+	vertical-align: middle;
+	width: auto;
+	height: 100%;
+	margin: auto;
+	display: block;
+}
