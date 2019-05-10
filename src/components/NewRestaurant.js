@@ -4,6 +4,7 @@ import React, { Component } from "react";
 // 	IMPORT CUSTOM COMPONENTS
 import activeMarker from "../images/markerPink4.png";
 import "../styles/NewRestaurant.css";
+import donut from "../images/donut.png";
 
 
 // ===============================
@@ -144,7 +145,7 @@ class NewRestaurant extends Component {
 			lat: this.state.coords.lat,
 			lng: this.state.coords.lng,
 			price: null,
-			photo: null,
+			photo: donut,
 			userAdded: true
 		};
 
