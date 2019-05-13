@@ -90,7 +90,7 @@ class RestaurantDetails extends Component {
 		let streetViewURL;
 		let streetViewStatus = "https://maps.googleapis.com/maps/api/streetview/metadata?location=" +
 			lat + "," + lng +
-			"&key=AIzaSyAbulWAsl7TTbNtnz891RutUSCA89IHKQA";
+			"&key=AIzaSyAvwuxYntNmQx4fVQS-X8FrAm2HUJ6m-iE";
 
 		// Get metadata status from streetView API
 		fetch(streetViewStatus)
@@ -103,7 +103,7 @@ class RestaurantDetails extends Component {
 					// Define image URL as streetView image
 					streetViewURL = "https://maps.googleapis.com/maps/api/streetview?size=900x600&location=" +
 						lat + "," + lng +
-						"&key=AIzaSyAbulWAsl7TTbNtnz891RutUSCA89IHKQA";
+						"&key=AIzaSyAvwuxYntNmQx4fVQS-X8FrAm2HUJ6m-iE";
 				}
 			})
 			// Then push results to state
