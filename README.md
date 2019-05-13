@@ -1,4 +1,23 @@
-## For a user guide to the basic structure, dataflow and features of this project, please refer to `DesignGuide.md` in this repo
+# Open Classrooms Project 7 - Restaurant Review Site
+
+### Hello and thanks for stopping by!
+
+This repo contains *Open Classrooms Project 7 - Restaurant Review Site*. The purpose of this project was to create our own restaurant review website, using the **GoogleMaps JavaScript API**.
+
+The given tasks included:
+
+* Loading a GoogleMap via the API that shows the users current geolocation
+* Displaying nearby restaurants as markers on the map and a corresponding list in a column
+* List details for each restaurants such as rating and reviews, streetview photo, and contact details
+* Allow users to add reviews to existing restaurants
+* Allow users to add new restaurants via clicking a location on the map
+* Allow users to filter restaurants displayed, based on rating
+
+This project was to be bult with **ReactJS** and **HTML/CSS**. Most students chose to use an NPM third party library such as *google-react-map*. I chose to approach the project from a pure ReactJS angle. Although this approach made the project much more difficult and lengthy, it gave me a deeper understanding of both ReactJS and the GoogleMaps API than I would otherwise have gotten.
+
+To view the **technical documentation** for this project, please see the wiki [here](https://github.com/TamiMcInnis/restaurant-review-site/wiki "Restaurant Review Site wiki").
+
+***
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
