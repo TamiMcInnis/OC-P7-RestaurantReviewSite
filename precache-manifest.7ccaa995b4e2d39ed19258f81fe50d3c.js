@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/TamiMcInnis/OC-P7-RestaurantReviewSite/static/media/loadingImg2.d4848dc5.jpg"
   },
   {
-    "revision": "0e46bc0d3d7d7817a22530baaa481b2f",
+    "revision": "f2171ddb20dd45113aa6692722807032",
     "url": "/TamiMcInnis/OC-P7-RestaurantReviewSite/index.html"
   }
 ];
