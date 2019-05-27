@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/restaurant-review-site/precache-manifest.a98ee9b90ff5f66c4061f485f59431b9.js"
+  "/TamiMcInnis/OC-P7-RestaurantReviewSite/precache-manifest.78ecbec7f351c3c0d46a615d54e908db.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/restaurant-review-site/index.html", {
+workbox.routing.registerNavigationRoute("/TamiMcInnis/OC-P7-RestaurantReviewSite/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
