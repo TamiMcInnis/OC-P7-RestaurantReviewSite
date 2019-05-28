@@ -47,12 +47,12 @@ class NewRestaurant extends Component {
 	// ===============================
 	getCoordinates () {
 		// Define vars for coordinates
-		let map = this.props.map; // <--- SHAMELESS HACK!
-		let setCoordinates = this.setCoordinates; // <--- SHAMELESS HACK!
+		let map = this.props.map;
+		let setCoordinates = this.setCoordinates;
 		let coords = {};
 		let geoResult;
 		let tempMarker;
-		let thisRef = this; // <--- SHAMELESS HACK!
+		let thisRef = this;
 
 		// Create Geocoder
 		let geocoder = new window.google.maps.Geocoder();
@@ -105,7 +105,7 @@ class NewRestaurant extends Component {
 			      	}
 		      	// If connection status fails
 		    	} else {
-			     	window.alert('Geocoder failed due to work.');
+			     	window.alert('Geocoder failed to work.');
 			    }
 		  	});
   		});
