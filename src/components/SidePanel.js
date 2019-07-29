@@ -11,6 +11,11 @@ import Twoplus from "../images/2plus.png";
 import Threeplus from "../images/3plus.png";
 import Fourplus from "../images/4plus.png";
 import Fiveplus from "../images/5plus.png";
+import OneplusActive from "../images/1plusActive.png";
+import TwoplusActive from "../images/2plusActive.png";
+import ThreeplusActive from "../images/3plusActive.png";
+import FourplusActive from "../images/4plusActive.png";
+import FiveplusActive from "../images/5plusActive.png";
 import "../styles/SidePanel.css";
 
 
@@ -267,11 +272,11 @@ class SidePanel extends Component {
 							<div id="SidePanel-filter">
 								<h3 id="SidePanel-filter-title">FILTER RESTAURANTS</h3>
 								<div id="SidePanel-filter-buttons">
-									<input type="image" onClick={this.filterRestaurants} value="1" src={Oneplus} className="star" alt="star rating 1+" />
-									<input type="image" onClick={this.filterRestaurants} value="2" src={Twoplus} className="star" alt="star rating 2+" />
-									<input type="image" onClick={this.filterRestaurants} value="3" src={Threeplus} className="star" alt="star rating 3+" />
-									<input type="image" onClick={this.filterRestaurants} value="4" src={Fourplus} className="star" alt="star rating 4+" />		
-									<input type="image" onClick={this.filterRestaurants} value="5" src={Fiveplus} className="star" alt="star rating 5+" />
+									<input type="image" onClick={this.filterRestaurants} onMouseEnter={e => e.target.src = OneplusActive} onMouseLeave={e => e.target.src = Oneplus} value="1" src={Oneplus} className="star" alt="star rating 1+" />
+									<input type="image" onClick={this.filterRestaurants} onMouseEnter={e => e.target.src = TwoplusActive} onMouseLeave={e => e.target.src =Twoplus} value="2" src={Twoplus} className="star" alt="star rating 2+" />
+									<input type="image" onClick={this.filterRestaurants} onMouseEnter={e => e.target.src = ThreeplusActive} onMouseLeave={e => e.target.src = Threeplus} value="3" src={Threeplus} className="star" alt="star rating 3+" />
+									<input type="image" onClick={this.filterRestaurants} onMouseEnter={e => e.target.src = FourplusActive} onMouseLeave={e => e.target.src = Fourplus} value="4" src={Fourplus} className="star" alt="star rating 4+" />		
+									<input type="image" onClick={this.filterRestaurants} onMouseEnter={e => e.target.src = FiveplusActive} onMouseLeave={e => e.target.src = Fiveplus} value="5" src={Fiveplus} className="star" alt="star rating 5+" />
 									<button onClick={this.filterRestaurants} value="0" id="sidePanel-resetFilter">
 										RESET
 									</button>

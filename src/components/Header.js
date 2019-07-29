@@ -3,7 +3,7 @@ import React from "react";
 
 
 // IMPORT CUSTOM COMPONENTS
-import logo from "../images/logo2.png";
+import logo from "../images/logo1.png";
 import "../styles/Header.css";
 
 

@@ -76,6 +76,10 @@
 	outline: none;
 }
 
+.newReview-cancelButton:hover {
+	background: #41436e;
+}
+
 /* SUBMIT BUTTON */
 .newReview-submitButton {
 	background: #e552c8;
@@ -89,5 +93,9 @@
 	cursor: pointer;
 	margin: 2px 4px 0 0;
 	outline: none;
+}
+
+.newReview-submitButton:hover {
+	background: #41436e;
 }
 

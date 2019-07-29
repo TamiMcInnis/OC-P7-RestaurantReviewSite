@@ -73,6 +73,10 @@
 	outline: none;
 }
 
+#sidePanel-resetFilter:hover {
+	background: #41436e;
+}
+
 /* NEW RESTAURANT */
 #SidePanel-addRestaurant {
 	padding: 10px;
@@ -98,6 +102,11 @@
 	cursor: pointer;
 	margin: auto;
 	outline: none;
+}
+
+#SidePanel-addRestaurant-button:hover {
+	background: #41436e;
+
 }
 
 /* ======== MEDIA QUERIES FOR SIDE PANEL ========*/

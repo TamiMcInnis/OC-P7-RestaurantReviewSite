@@ -7,6 +7,7 @@ import Stars from "./Stars.js";
 import DollarSigns from "./DollarSigns.js";
 import NewReview from "./NewReview.js";
 import backArrow from "../images/backArrow8.png";
+import backArrowActive from "../images/backArrowActive.png";
 import phone from "../images/phone.png";
 import link from "../images/webLink.png";
 import mapIcon from "../images/mapIcon.png";
@@ -143,8 +144,8 @@ class RestaurantDetails extends Component {
 						<Stars rating={this.props.avgRating} />
 						<span className="restaurantDetails-topBar-totalRatings"> ({this.props.totalRatings} reviews)</span>
 
-						<div className="restaurantDetails-topBar-close" onClick={this.props.handleClose}>
-							<img src={backArrow} alt="back arrow"/>
+						<div className="restaurantDetails-topBar-close" onClick={this.props.handleClose} >
+							<img src={backArrow} alt="back arrow" onMouseEnter={e => e.target.src = backArrowActive} onMouseLeave={e => e.target.src = backArrow} />
 						</div>
 					</div>
 				</div>

@@ -50,6 +50,10 @@
 	outline: none;
 }
 
+.newRestaurant-submitButton:hover {
+	background: #41436e;
+}
+
 /* CANCEL BUTTON */
 .newRestaurant-cancelButton {
 	background: #e552c8;
@@ -63,6 +67,10 @@
 	cursor: pointer;
 	margin: 2px 4px 0 0;
 	outline: none;
+}
+
+.newRestaurant-cancelButton:hover {
+	background: #41436e;
 }
 
 /* ADDRESS AREA */
@@ -83,6 +91,10 @@
 	cursor: pointer;
 	margin: 2px 4px 12px 0px;
 	outline: none;
+}
+
+.newRestaurant-coordsButton:hover {
+	background: #41436e;
 }
 
 /* ADRESS INPUT */

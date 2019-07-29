@@ -110,6 +110,11 @@ button.restaurantDetails-reviews-button {
 	outline: none;
 }
 
+button.restaurantDetails-reviews-button:hover {
+	background: #41436e;
+
+}
+
 /* DETAILS TOP UI AREA */
 .restaurantDetails-topBar-container {
 	padding: 10px 10px 14px 14px;

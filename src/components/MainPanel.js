@@ -22,7 +22,6 @@ class MainPanel extends Component {
 			map: null,
 			mapBounds: {},
 			placesData : [],
-			isLoading: true,
 			hideMap: null
 		};
 
@@ -54,7 +53,8 @@ class MainPanel extends Component {
       			});
 
 		      	// Create new instance of Google Map, placed in local #map div
-				let map = new window.google.maps.Map(document.getElementById("mainPanel-map"), {
+		      	let map;
+				map = new window.google.maps.Map(document.getElementById("mainPanel-map"), {
 					center: this.state.userPos,
 					zoom: 15,
 					styles: mapStyle
@@ -120,6 +120,7 @@ class MainPanel extends Component {
 	// FETCH PLACES FROM GOOGLE API
 	// ===============================
 	fetchPlaces() { 
+
 		// Create request for Google Places based on current map bounds
 		let request = {
 			bounds: this.state.mapBounds,
@@ -136,6 +137,7 @@ class MainPanel extends Component {
 	// STRUCTURE AND SET PLACES RESULTS
 	// =================================
 	pushPlaces(results, status) {
+
 		// Define var
 		let resultsArray;
 
@@ -199,8 +201,7 @@ class MainPanel extends Component {
 
 			// Set updated array of restaurants to state
 			this.setState({
-				placesData : resultsArray,
-				isLoading: false
+				placesData : resultsArray
 			});
 
 		// If no results returned from API
@@ -208,8 +209,7 @@ class MainPanel extends Component {
 			// Empty the state
 			resultsArray = [];
 			this.setState({
-				placesData : resultsArray,
-				isLoading: false
+				placesData : resultsArray
 			});
 		}
 	}
@@ -254,12 +254,6 @@ class MainPanel extends Component {
 		// Return Map and SidePanel
 		return (
 			<div id="mainPanel">
-
-				{this.state.isLoading ? 
-					<div  className="mainPanel-loadingImg" ></div>
-					: 
-					<span></span>
-				}
 					
 				<div id="mainPanel-map" className={this.state.hideMap}></div>
 

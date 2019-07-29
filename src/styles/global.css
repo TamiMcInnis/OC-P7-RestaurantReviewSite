@@ -8,6 +8,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 10pt;
 	font-weight: 400;
+	background-color: #e0e0e0;
 }
 
 /* REMOVE DEFAULT OUTLINE ON FOCUS */
