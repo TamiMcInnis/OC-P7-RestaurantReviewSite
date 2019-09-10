@@ -15,8 +15,14 @@ The given tasks included:
 
 This project was to be bult with **ReactJS** and **HTML/CSS**. Most students chose to use an NPM third party library such as *google-react-map*. I chose to approach the project from a pure ReactJS angle. Although this approach made the project much more difficult and lengthy, it gave me a deeper understanding of both ReactJS and the GoogleMaps API than I would otherwise have gotten.
 
-**Please note:**
-If you would like to clone this repo, you will need to insert your own API key to access GoogleMaps API. The API key in use is restricted to this URL and has a request quota placed on it. Usage per day is restricted to a small amount of requests per user for security purposes.
+### Please note:
+If you would like to clone this repo, you will need to insert your own **API key** to access GoogleMaps API. The API key in use is restricted to this URL and **has a usage quota placed on it**. Usage per day is restricted to a small amount of requests per user for security purposes. 
+
+Because of this, you may also find that the daily usage quota has been exceeded and the app will not load properly. In this case, you can also clone the repo and replace the current API key with your own from [Google](https://developers.google.com/maps/documentation/javascript/get-api-key), which includes a one year free trial. 
+
+**Where to place your API Key:**
+* public/index.html - line 31
+* src/components/RestaurantDetails.js - lines 94 & 107
 
 **COMING SOON** To view the **technical documentation** for this project, please see the wiki [here](https://github.com/TamiMcInnis/restaurant-review-site/wiki "Restaurant Review Site wiki").
 
